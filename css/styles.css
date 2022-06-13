@@ -1,14 +1,85 @@
+ :root {
+    --primary-color: #212121;
+    --secondary-color: #757575;
+    --accent-color: #ffffff;
+    --extra-color: #2196f3;
+    --primary-font: 'Roboto', sans-serif;
+    --extra-font: 'Raleway', sans-serif;
+    --normal-font: 400;
+    --medium-font: 500;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --primary-font-size: 14px;
 
-.header {
+ }
+
+ body {
+    font-size: var(--primary-font-size);
+}
+.content {
+    width: 1600px;
+    margin: 0 auto;
+}
+.headers {
+    display: block;
+    padding: 0 215px;
+}
+
+.menu{
+    display: block; 
+}
+
+.logo {}
+
+.accent {}
+
+.list {
+
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+}
+
+.menu-item {}
+
+.menu-link {}
+
+.contacts {}
+/* 
+.list {
+    list-style: none;
+    display: flex;
+    
+}
+
+.headers {
     display: flex;
     align-items: center;
- 
+    padding: 0 215px;
+     
+}
+
+.content {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: var(--extra-color);
+
+}
+
+.accent {
+   color: black;
 }
 
 .menu-list {
     list-style: none;
+    display: block;
 
-}
+} */
 
 /* header */
 /* main */
